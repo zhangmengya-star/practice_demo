@@ -1,0 +1,54 @@
+{
+  "uid" : "8a9e5ce737f4ed58",
+  "name" : "test_skip",
+  "fullName" : "test_python_file#test_skip",
+  "historyId" : "eff7a90ef0b3b5a7dd3ec117a9305e09",
+  "time" : {
+    "start" : 1607342820794,
+    "stop" : 1607342820794,
+    "duration" : 0
+  },
+  "description" : "this test is skipped",
+  "descriptionHtml" : "<p>this test is skipped</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: for a reason!",
+  "statusTrace" : "('/Users/yuanmeng/Desktop/lesson_script/fund/gdp/test_python_file.py', 15, 'Skipped: for a reason!')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_python_file"
+  }, {
+    "name" : "host",
+    "value" : "yuanmengdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "57527-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_python_file"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a9e5ce737f4ed58.json",
+  "parameterValues" : [ ]
+}

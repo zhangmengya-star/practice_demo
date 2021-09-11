@@ -1,0 +1,58 @@
+{
+  "uid" : "adf664c782b679dd",
+  "name" : "test_failure",
+  "fullName" : "test_python_file#test_failure",
+  "historyId" : "a6995d17bfce27ae2c7590383534e3f1",
+  "time" : {
+    "start" : 1607342820720,
+    "stop" : 1607342820721,
+    "duration" : 1
+  },
+  "description" : "this test fails",
+  "descriptionHtml" : "<p>this test fails</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "def test_failure():\n        \"\"\"this test fails\"\"\"\n>       assert False\nE       assert False\n\ntest_python_file.py:10: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_python_file"
+  }, {
+    "name" : "host",
+    "value" : "yuanmengdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "57527-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_python_file"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "adf664c782b679dd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "yuanmengdeMacBook-Air.local",
+    "children" : [ {
+      "name" : "57527-MainThread",
+      "children" : [ {
+        "name" : "test_broken",
+        "uid" : "12387e08aa256091",
+        "parentUid" : "ce88444ff222610a8b8b42d6af91e4a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607342820798,
+          "stop" : 1607342820798,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success",
+        "uid" : "e8219a71f23da0c1",
+        "parentUid" : "ce88444ff222610a8b8b42d6af91e4a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607342820714,
+          "stop" : 1607342820714,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_failure",
+        "uid" : "adf664c782b679dd",
+        "parentUid" : "ce88444ff222610a8b8b42d6af91e4a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607342820720,
+          "stop" : 1607342820721,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "8a9e5ce737f4ed58",
+        "parentUid" : "ce88444ff222610a8b8b42d6af91e4a5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1607342820794,
+          "stop" : 1607342820794,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce88444ff222610a8b8b42d6af91e4a5"
+    } ],
+    "uid" : "371c01128e78520f6e9790061d32e64f"
+  } ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "e8219a71f23da0c1",
+  "name" : "test_success",
+  "fullName" : "test_python_file#test_success",
+  "historyId" : "22f7184125f9d4dde380dc5334dec28e",
+  "time" : {
+    "start" : 1607342820714,
+    "stop" : 1607342820714,
+    "duration" : 0
+  },
+  "description" : "this test succeeds",
+  "descriptionHtml" : "<p>this test succeeds</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_python_file"
+  }, {
+    "name" : "host",
+    "value" : "yuanmengdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "57527-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_python_file"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8219a71f23da0c1.json",
+  "parameterValues" : [ ]
+}
