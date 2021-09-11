@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Dec 07 20:07:00 CST 2020","Mon Dec 07 20:07:00 CST 2020","0","","test_python_file","","","","test_success","this test succeeds"
-"skipped","Mon Dec 07 20:07:00 CST 2020","Mon Dec 07 20:07:00 CST 2020","0","","test_python_file","","","","test_skip","this test is skipped"
-"broken","Mon Dec 07 20:07:00 CST 2020","Mon Dec 07 20:07:00 CST 2020","0","","test_python_file","","","","test_broken",""
-"failed","Mon Dec 07 20:07:00 CST 2020","Mon Dec 07 20:07:00 CST 2020","1","","test_python_file","","","","test_failure","this test fails"
