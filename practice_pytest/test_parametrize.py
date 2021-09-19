@@ -12,7 +12,7 @@ def test_eval(content, expected):
 @pytest.mark.parametrize("y", [3, 4])
 def test_foo(x, y):
     print(f"x的值为{x},y的值为{y}")
-    # 共输出4组数据，（1，3）（2，3）（2，3）（2，4）
+    # 共输出4组数据，（1,3）（2,3）（1,4）（2,4）
 
 
 test_user_data = ['xiaoming', 'xiaohong']
