@@ -11,7 +11,7 @@ class TestWebviewWebApp:
         # desired_caps['appPackage'] = 'io.appium.android.apis'
         # desired_caps['appActivity'] = 'io.appium.android.apis.view.PopupMenu1'
         desired_caps['browserName'] = 'Browser'
-        desired_caps['chromedriverExecutable'] = '/Users/yuanmeng/software/app/chromedriver_2.18'
+        desired_caps['chromedriverExecutable'] = '/Users/myname/software/app/chromedriver_2.18'
         desired_caps['noReset'] = "true"
         # appium本身的设置就自带的，不需要额外添加，默认就是uiautomator2
         desired_caps['automationName'] = "uiautomator2"

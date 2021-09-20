@@ -10,7 +10,7 @@ class TestWebviewWebAppApiDemos:
         desired_caps['deviceName'] = 'true'
         desired_caps['appPackage'] = 'com.example.android.apis'
         desired_caps['appActivity'] = '.ApiDemos'
-        desired_caps['chromedriverExecutable'] = '/Users/yuanmeng/software/app/chromedriver_74'
+        desired_caps['chromedriverExecutable'] = '/Users/myname/software/app/chromedriver_74'
         desired_caps['noReset'] = "true"
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
         self.driver.implicitly_wait(10)
