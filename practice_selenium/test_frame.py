@@ -23,7 +23,7 @@ class TestFrame:
 
         # self.driver.switch_to.parent_frame()
         # 另一种写法
-        self.driver.switch_to_default_content()
+        self.driver.switch_to.default_content()
         run_button = self.driver.find_element_by_id('submitBTN')
         print(run_button.text)
 
