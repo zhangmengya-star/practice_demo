@@ -7,13 +7,32 @@
 
 
 def number_splicing(list: list):
-    list.sort(reverse=True)
+    # list.sort(reverse=True)
+    # length = len(list)
+    # result = ''
+    # for i in range(length):
+    #     num_str = str(list[i])
+    #     result = result + num_str
+    # return result
     length = len(list)
-    result = ''
+    str_list = []
     for i in range(length):
         num_str = str(list[i])
-        result = result + num_str
-    return result
+        str_list.append(num_str)
+
+    for i in range(length - 1):
+        for j in range(length - i - 1):
+            str_list[j], str_list[j + 1] = str_sort(str_list[j], str_list[j + 1])
+    return str_list
+
+
+def str_sort(str_1, str_2):
+    result_1 = str_1 + str_2
+    result_2 = str_2 + str_1
+    if result_1 >= result_2:
+        return str_1, str_2
+    else:
+        return str_2, str_1
 
 
 if __name__ == '__main__':
