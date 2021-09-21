@@ -8,7 +8,7 @@ def selection_sort(list):
     length = len(list)
     if length <= 1:
         return list
-    for i in range(length-1):
+    for i in range(length - 1):
         min_index = i
         min_value = list[i]
         for j in range(i + 1, length):
@@ -18,6 +18,7 @@ def selection_sort(list):
         list[i], list[min_index] = list[min_index], list[i]
     return list
 
+
 if __name__ == '__main__':
-    result = selection_sort([3,2,1,3,2,1])
+    result = selection_sort([3, 2, 1, 3, 2, 1])
     print(result)
