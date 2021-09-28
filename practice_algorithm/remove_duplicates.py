@@ -61,3 +61,7 @@ if __name__ == '__main__':
     nums = [1, 1, 2, 2, 2, 3, 3, 4, 4, 5]
     solution.removeDuplicates(nums)
     print(nums)
+
+    nums_1 = [1, 2, 3, 4, 5]
+    solution.removeDuplicates(nums_1)
+    print(nums_1)
