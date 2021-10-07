@@ -18,19 +18,19 @@ class Solution(object):
         """
 
         length = m + n
-        index_length = length -1
-        index_m = m-1
-        index_n=n-1
+        index_length = length - 1
+        index_m = m - 1
+        index_n = n - 1
         while index_m >= 0 and index_n >= 0:
             if nums1[index_m] > nums2[index_n]:
                 nums1[index_length] = nums1[index_m]
                 index_m -= 1
             else:
                 nums1[index_length] = nums2[index_n]
-                index_n -=1
+                index_n -= 1
             index_length -= 1
         if index_n >= 0:
-            nums1[0:index_length+1] = nums2[0:index_n+1]
+            nums1[0:index_length + 1] = nums2[0:index_n + 1]
 
 
 if __name__ == '__main__':
