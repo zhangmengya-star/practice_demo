@@ -32,7 +32,6 @@ s 由英文字母、数字、符号和空格组成
 '''
 
 
-
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -61,9 +60,50 @@ class Solution(object):
 
         return num
 
+    def lengthOfLongestSubstring_1(self, s):
+        length = len(s)
+        if length <= 1:
+            return length
+        result = 1
+        sub_str = s[0]
+        i = 0
+        j = 1
+        while j < length:
+            if s[j] in sub_str:
+                while i < j:
+                    if s[i] != s[j]:
+                        i += 1
+                    else:
+                        i += 1
+                        break
+                sub_str = s[i:j + 1]
+            else:
+                sub_str += s[j]
+            j += 1
+            result = max(result, len(sub_str))
+
+        return result
+
 
 if __name__ == '__main__':
     solution = Solution()
     s = 'pwwkew'
-    print(solution.lengthOfLongestSubstring(s))
+    result = solution.lengthOfLongestSubstring_1(s)
+    print(result)
 
+'''
+测试用例：
+字符串长度为0
+字符串长度为1
+字符串长度为最大值-1
+字符串长度为最大值
+字符串长度为最大值+1
+字符中包含除小写字母外的其他字符
+字符串中的字符内容一致
+字符串中的字符内容完全不一致
+最长子串存在多个
+最长子串的出现位置在字符串头部
+最长子串的出现位置在字符串的中间某位置
+最长子串的出现位置在字符串的尾部
+最长子序列大于最长子串
+'''
