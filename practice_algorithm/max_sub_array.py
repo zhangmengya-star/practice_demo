@@ -23,8 +23,8 @@
 
 提示：
 
-1 <= nums.length <= 105
--104 <= nums[i] <= 104
+1 <= nums.length <= 10^5
+-10^4 <= nums[i] <= 10^4
 
 
 进阶：如果你已经实现复杂度为 O(n) 的解法，尝试使用更为精妙的 分治法 求解。
@@ -37,8 +37,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        max_answer = 0
-        temp = 0
+        max_answer = -10E4
+        temp = -10E4
         for i in nums:
             temp = max(temp + i, i)
             max_answer = max(max_answer, temp)
