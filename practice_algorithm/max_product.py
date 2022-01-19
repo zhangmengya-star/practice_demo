@@ -24,7 +24,7 @@ class Solution(object):
         if length == 0:
             return 0
 
-        min_product = min(*nums)
+        min_product = min(nums)
         min_result = [min_product for i in range(length)]
         max_result = [min_product for i in range(length)]
 
@@ -36,11 +36,11 @@ class Solution(object):
                 min_result[i] = min(min_result[i - 1] * nums[i], max_result[i - 1] * nums[i], nums[i])
                 max_result[i] = max(min_result[i - 1] * nums[i], max_result[i - 1] * nums[i], nums[i])
 
-        return max(*max_result)
+        return max(max_result)
 
 
 if __name__ == '__main__':
     solution = Solution()
-    nums = [2, 3, -2, 4]
+    nums = [-2]
     result = solution.maxProduct(nums)
     print(result)
